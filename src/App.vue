@@ -19,6 +19,8 @@ export default {
 }
 </script>
 
+<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
+
 <style>
 @import './../node_modules/bulma/css/bulma.css';
 .app-content {

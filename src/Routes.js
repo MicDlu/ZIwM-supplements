@@ -2,6 +2,7 @@ import Products from './pages/Products';
 import Producers from './pages/Producers';
 import Substances from './pages/Substances';
 import Symptoms from './pages/Symptoms';
+import Conflicts from './pages/Conflicts';
 
 
 export default [
@@ -24,5 +25,9 @@ export default [
   {
     path: '/symptoms',
     component: Symptoms
+  },
+  {
+    path: '/conflicts',
+    component: Conflicts
   }
 ]

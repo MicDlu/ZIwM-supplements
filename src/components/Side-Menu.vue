@@ -1,12 +1,6 @@
 <template>
   <aside class="menu">
     <p class="menu-label">
-      General
-    </p>
-    <ul class="menu-list">
-      <li><a>About</a></li>
-    </ul>
-    <p class="menu-label">
       Lists
     </p>
     <ul class="menu-list">
