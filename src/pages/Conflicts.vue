@@ -69,7 +69,8 @@ export default {
         fields: {
           substance1: '',
           substance2: '',
-          symptom: ''
+          symptom: '',
+          description: ''
         }
       }
     }
@@ -85,7 +86,8 @@ export default {
       this.dbEntry.fields= {
         substance1: '',
         substance2: '',
-        symptom: ''
+        symptom: '',
+        description: ''
       },
       this.dbEntry.key = this.dbRoot.child('Conflicts').push().key;
     },

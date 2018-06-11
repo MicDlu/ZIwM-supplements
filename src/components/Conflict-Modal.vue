@@ -47,6 +47,13 @@
             </div>
           </div>
 
+          <div class="field">
+            <label class="label">Description</label>
+            <div class="control">
+              <textarea rows="3" v-model="entry.fields.description" class="textarea" type="text" placeholder="Description"></textarea>
+            </div>
+          </div>
+
           <nav class="level">
             <div class="level-left"/>
             <div class="level-right">
@@ -82,7 +89,8 @@ export default {
       fields: {
         substance1: '',
         substance2: '',
-        symptom: ''
+        symptom: '',
+        description: ''
       },
       ingredients: null
     }

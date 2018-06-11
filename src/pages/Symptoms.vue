@@ -7,12 +7,6 @@
       <a slot="subtitle">{{page.subtitle}}</a>
     </pageHeader>
 
-    <!-- <pageTable
-      :page="page"
-      :dbEntries="dbEntries"
-      @modalEdit="Modal_Edit">
-    </pageTable> -->
-
     <div>
       <table class="table is-fullwidth is-striped is-hoverable">
         <thead>

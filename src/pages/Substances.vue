@@ -40,7 +40,7 @@ export default {
       page: {
         title: 'Substances',
         subtitle: 'List of registered substances',
-        columns: ['Name']
+        columns: ['Name','Name (PL)']
       },
       modal: {
         active: false,
@@ -53,7 +53,8 @@ export default {
       dbEntry: {
         key: '',
         fields: {
-          name: ''
+          name: '',
+          name2: ''
         }
       }
     }
@@ -67,7 +68,8 @@ export default {
       this.modal.active=true;
       this.modal.mode.new=true;
       this.dbEntry.fields= {
-        name: ''
+        name: '',
+        name2: ''
       }
     },
     Modal_Edit(entry, key) {

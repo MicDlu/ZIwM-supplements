@@ -15,6 +15,13 @@
             </div>
           </div>
 
+          <div class="field">
+            <label class="label">Name (PL)</label>
+            <div class="control">
+              <input v-model="entry.fields.name2" class="input" type="text" placeholder="Name (Polish)">
+            </div>
+          </div>
+
           <nav class="level">
             <div class="level-left"/>
             <div class="level-right">
@@ -42,7 +49,8 @@ export default {
     entry: {
       key: '',
       fields: {
-        name: ''
+        name: '',
+        name2: ''
       }
     }
   },
