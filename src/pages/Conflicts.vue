@@ -104,7 +104,6 @@ export default {
       this.dbRoot.child('Conflicts').on('value', (snapshot) => {
         this.dbEntries=snapshot.val()
       });
-      console.log(this.dbEntries)
     },
     Entry_New() {
       this.Entry_Edit()
@@ -116,7 +115,6 @@ export default {
       this.Modal_Close()
     },
     Entry_Edit() {
-      console.log(this.dbEntry)
       var updates = {};
       updates['/Conflicts/' + this.dbEntry.key] = this.dbEntry.fields
       this.dbRoot.update(updates);

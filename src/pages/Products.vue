@@ -21,7 +21,8 @@
           v-for="(dbEntry, index) in dbEntries"
           @click="Modal_Edit(dbEntry, index)">
             <td>{{dbEntry.name}}</td>
-            <td>{{dbEntry.producer.name}}</td>
+            <td v-if="dbEntry.producer">{{dbEntry.producer.name}}</td>
+            <td v-else>-</td>
             <td>{{dbEntry.code}}</td>
           </tr>
         </tbody>
@@ -80,8 +81,6 @@ export default {
     this.dbRoot = db.ref();
     this.dbRef = db.ref('Products');
     this.FillTableFromDB();
-
-    console.log(this.dbEntries)
   },
   methods: {
     Modal_New() {
