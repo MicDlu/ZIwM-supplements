@@ -2,7 +2,8 @@
   <div>
     <pageHeader
       @modalNew="Modal_New">>
-      <a slot="title">{{page.title}}</a>
+      <icon slot="title" name="industry" scale="2"></icon>
+      <a slot="title"> {{page.title}}</a>
       <a slot="subtitle">{{page.subtitle}}</a>
     </pageHeader>
 

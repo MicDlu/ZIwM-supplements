@@ -2,7 +2,8 @@
   <div>
     <pageHeader
       @modalNew="Modal_New">>
-      <a slot="title">{{page.title}}</a>
+      <icon slot="title" name="medkit" scale="2"></icon>
+      <a slot="title"> {{page.title}}</a>
       <a slot="subtitle">{{page.subtitle}}</a>
     </pageHeader>
 
@@ -79,6 +80,8 @@ export default {
     this.dbRoot = db.ref();
     this.dbRef = db.ref('Products');
     this.FillTableFromDB();
+
+    console.log(this.dbEntries)
   },
   methods: {
     Modal_New() {

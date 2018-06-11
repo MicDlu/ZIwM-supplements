@@ -7,6 +7,10 @@ import Conflicts from './pages/Conflicts';
 
 export default [
   {
+    path: '*',
+    redirect: '/'
+  },
+  {
     path: '/',
     component: Products
   },

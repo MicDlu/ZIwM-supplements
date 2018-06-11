@@ -24,7 +24,7 @@ export default {
 <style>
 @import './../node_modules/bulma/css/bulma.css';
 .app-content {
-  margin-left: 150px;
+  margin-left: 200px;
 }
 .fullsize {
   position: fixed;
@@ -37,7 +37,7 @@ export default {
   left: 0;
   bottom: 0;
   padding: 20px 15px 50px;
-  width: 150px;
+  width: 200px;
   min-width: 45px;
   max-height: 100vh;
   height: 100%;

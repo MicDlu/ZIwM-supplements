@@ -13,6 +13,7 @@
     "bulma": "^0.7.1",
     "firebase": "^5.0.4",
     "vue": "^2.5.11",
+    "vue-awesome": "^2.3.7",
     "vue-multiselect": "^2.1.0",
     "vue-router": "^3.0.1"
   },
